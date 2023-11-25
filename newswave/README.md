@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with NewsWave
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a news application that uses an api key to fetch news from https://www.newscatcherapi.com We can use this to get a daily dose of different category of news.
 
 ## Available Scripts
 
