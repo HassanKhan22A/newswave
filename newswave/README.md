@@ -1,8 +1,21 @@
+#Credits:- https://www.newscatcherapi.com
+
 # Getting Started with NewsWave
 
-This is a news application that uses an api key to fetch news from https://www.newscatcherapi.com We can use this to get a daily dose of different category of news.
+This is a news application that uses an API key to fetch news. The news is divided into categories like General, Tech, Business, Science, Finance, Food, Politics, Economics, Travel, Entertainment, Music, Sport, World. You can view news related to each category available
 
-## Available Scripts
+## How to run the project
+
+Visit https://app.newscatcherapi.com/auth/register_nc to get your free API key.
+
+Link to dashboard:- https://app.newscatcherapi.com/dashboard/
+Link to documentation:- https://docs.newscatcherapi.com/
+
+Clone the git repository on your system
+
+create an .env.local file in which you need to add the line REACT_APP_NEWS_API='YourAPIKey'
+
+#YourAPIKey = the API key you got from the previous stpes.
 
 In the project directory, you can run:
 
