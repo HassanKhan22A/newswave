@@ -1,4 +1,4 @@
-#Credits:- https://www.newscatcherapi.com
+##Credits:- https://www.newscatcherapi.com
 
 # Getting Started with NewsWave
 
