@@ -16,7 +16,7 @@ Clone the git repository on your system
 
 create an .env.local file in which you need to add the line REACT_APP_NEWS_API='YourAPIKey'
 
-#YourAPIKey = the API key you got from the previous stpes.
+YourAPIKey = the API key you got from the previous stpes.
 
 In the project directory, you can run:
 
