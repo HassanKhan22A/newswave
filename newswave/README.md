@@ -9,6 +9,7 @@ This is a news application that uses an API key to fetch news. The news is divid
 Visit https://app.newscatcherapi.com/auth/register_nc to get your free API key.
 
 Link to dashboard:- https://app.newscatcherapi.com/dashboard/
+
 Link to documentation:- https://docs.newscatcherapi.com/
 
 Clone the git repository on your system
