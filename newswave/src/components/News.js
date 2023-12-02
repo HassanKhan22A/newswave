@@ -23,7 +23,6 @@ const News = (props) => {
         axios.request(options).then(function (response) {
             setArticles(response.data.articles)
             setTotalResults(response.data.total_pages)
-            console.log(articles)
         }).catch(function (error) {
             console.error(error);
         });
@@ -71,7 +70,7 @@ const News = (props) => {
                     <div className="row">
                         {articles?.map((element) => {
                             return <div className="col-md-4" key={element.link}>
-                                <NewsItem title={element.title ? element.title.slice(0, 45) : ""} summary={element.summary ? element.summary.slice(0, 88) : ""} imageUrl={element.media ? element.media : "https://www.bing.com/images/search?view=detailV2&ccid=00%2fNhaz8&id=FBB66B2F1594D97C2EE7663641D3F60EE67481A4&thid=OIP.00_Nhaz8GdfA3N6vw8W0pAHaDc&mediaurl=https%3a%2f%2fwww.quantumbalancing.com%2fimages%2fNews2.gif&exph=240&expw=515&q=news&simid=608009800235510943&FORM=IRPRST&ck=175B11832E2E6C59D6CE384327240AA8&selectedIndex=11"} newsUrl={element.link} author={element.author ? element.author : "Anonyomous"} />
+                                <NewsItem title={element.title ? element.title.slice(0, 45) : ""} summary={element.summary ? element.summary.slice(0, 88) : ""} imageUrl={element.media ? element.media : "https://th.bing.com/th/id/OIP.e4UaEmp1LcnHgqSxfLaJ4AHaEK?rs=1&pid=ImgDetMain"} newsUrl={element.link} author={element.author ? element.author : "Anonyomous"} />
                             </div>
                         })}
                     </div>
