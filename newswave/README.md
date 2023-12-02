@@ -2,7 +2,7 @@
 
 # Getting Started with NewsWave
 
-This is a news application that uses an API key to fetch news. The news is divided into categories like General, Tech, Business, Science, Finance, Food, Politics, Economics, Travel, Entertainment, Music, Sport, World. You can view news related to each category available
+This is a news application that uses an API key to fetch news. The news is divided into categories like General, Tech, Business, Science, Finance, Politics, Economics, Entertainment, Sport, World. You can view news related to each category available
 
 ## How to run the project
 
